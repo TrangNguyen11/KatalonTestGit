@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BaoCaoLogin" time="57" tests="2" failures="0" errors="0">
+   <testsuite name="BaoCaoLogin" tests="2" failures="0" errors="0" time="57" timestamp="2018-03-27 13:17:25" hostname="TrangCherry - DESKTOP-U0A6RSQ" id="Test Suites/BaoCaoLogin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TrangCherry\\Katalon Studio\\ProjectKatalon_ChucNangThemSanPhamVaoGioHangVaTimKiem\\Reports\\BaoCaoLogin\\20180327_131714"/>
+         <property name="logFiles" value="C:\\Users\\TrangCherry\\Katalon Studio\\ProjectKatalon_ChucNangThemSanPhamVaoGioHangVaTimKiem\\Reports\\BaoCaoLogin\\20180327_131714\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TrangCherry - DESKTOP-U0A6RSQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="169.254.17.225"/>
+         <property name="sessionId" value="ef0a5a25-4c1c-4b0b-b0d5-555ef180c486"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/CBLogin" classname="Test Cases/CBLogin" status="PASSED">
+         <system-out><![CDATA[2018-03-27 13:17:26 - [TEST_CASE][PASSED] - Test Cases/CBLogin: Test Cases/CBLogin
+
+2018-03-27 13:17:26 - [TEST_STEP][PASSED] - Statement - info = ["url":"", "username":"", "password":""]: null
+
+2018-03-27 13:17:26 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/DataLogin"): Reading excel file with source file 'C:\Users\TrangCherry\Desktop\loginin.xlsx' and sheet name 'Sheet1'
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - url = data.getValue(1, 1): null
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - username = data.getValue(2, 1): null
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - password = data.getValue(3, 1): null
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - return info: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-03-27 13:17:27 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - info = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase(com.kms.katalon.core.testcase.TestCaseFactory.findTestCase(CBLogin), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/CBLogin' successfully
+
+2018-03-27 13:17:27 - [TEST_CASE][PASSED] - Test Cases/CBLogin: Test Cases/CBLogin
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - info = ["url":"", "username":"", "password":""]: null
+
+2018-03-27 13:17:27 - [TEST_STEP][PASSED] - Statement - data = com.kms.katalon.core.testdata.TestDataFactory.findTestData("Data Files/DataLogin"): Reading excel file with source file 'C:\Users\TrangCherry\Desktop\loginin.xlsx' and sheet name 'Sheet1'
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - url = data.getValue(1, 1): null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - username = data.getValue(2, 1): null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - password = data.getValue(3, 1): null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - return info: null
+
+2018-03-27 13:17:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/CBLogin' successfully
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - url = url: null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - username = username: null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - Statement - password = password: null
+
+2018-03-27 13:17:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.facebook.com'
+
+2018-03-27 13:17:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.facebook.com'
+
+2018-03-27 13:17:46 - [TEST_STEP][PASSED] - setText: Text '01229084319' is set on object 'Object Repository/login/Pagelogin/input_email'
+
+2018-03-27 13:17:47 - [MESSAGE][PASSED] - Text '01229084319' is set on object 'Object Repository/login/Pagelogin/input_email'
+
+2018-03-27 13:17:47 - [TEST_STEP][PASSED] - setText: Text '0350080118@trang' is set on object 'Object Repository/login/Pagelogin/input_pass'
+
+2018-03-27 13:17:48 - [MESSAGE][PASSED] - Text '0350080118@trang' is set on object 'Object Repository/login/Pagelogin/input_pass'
+
+2018-03-27 13:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/DNFB/buttondn' is clicked on
+
+2018-03-27 13:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/DNFB/buttondn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-27 13:17:25 - [TEST_SUITE][PASSED] - BaoCaoLogin: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

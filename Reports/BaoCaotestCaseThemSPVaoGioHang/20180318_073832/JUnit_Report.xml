@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BaoCaotestCaseThemSPVaoGioHang" time="185" tests="6" failures="0" errors="0">
+   <testsuite name="BaoCaotestCaseThemSPVaoGioHang" tests="6" failures="0" errors="0" time="185" timestamp="2018-03-18 07:38:34" hostname="TrangCherry - DESKTOP-U0A6RSQ" id="Test Suites/BaoCaotestCaseThemSPVaoGioHang">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TrangCherry\\Katalon Studio\\project\\Reports\\BaoCaotestCaseThemSPVaoGioHang\\20180318_073832"/>
+         <property name="logFiles" value="C:\\Users\\TrangCherry\\Katalon Studio\\project\\Reports\\BaoCaotestCaseThemSPVaoGioHang\\20180318_073832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TrangCherry - DESKTOP-U0A6RSQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.43.245"/>
+         <property name="sessionId" value="861d4fea-9a3b-4ff8-9d2a-5853d31f00a3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01_ThemSPVaoGioHang" classname="Test Cases/TC01_ThemSPVaoGioHang" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:38:35 - [TEST_CASE][PASSED] - Test Cases/TC01_ThemSPVaoGioHang: Test Cases/TC01_ThemSPVaoGioHang
+
+2018-03-18 07:38:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:38:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:38:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:26 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_Chn' is clicked on
+
+2018-03-18 07:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_Chn' is clicked on
+
+2018-03-18 07:39:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:39:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:39:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_1' is clicked on
+
+2018-03-18 07:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_1' is clicked on
+
+2018-03-18 07:39:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC01_ThemSPVaoGH/VerrifySPTrongGH/td_BIG STAR' are matched.
+
+2018-03-18 07:39:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC01_ThemSPVaoGH/VerrifySPTrongGH/td_BIG STAR' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_TangSoLuongSPTrongGioHang" classname="Test Cases/TC02_TangSoLuongSPTrongGioHang" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:39:33 - [TEST_CASE][PASSED] - Test Cases/TC02_TangSoLuongSPTrongGioHang: Test Cases/TC02_TangSoLuongSPTrongGioHang
+
+2018-03-18 07:39:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC01_ThemSPVaoGioHang' successfully
+
+2018-03-18 07:39:34 - [TEST_CASE][PASSED] - Test Cases/TC01_ThemSPVaoGioHang: Test Cases/TC01_ThemSPVaoGioHang
+
+2018-03-18 07:39:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:39:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 07:39:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:39:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:43 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_Chn' is clicked on
+
+2018-03-18 07:39:43 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_Chn' is clicked on
+
+2018-03-18 07:39:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:39:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:39:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_1' is clicked on
+
+2018-03-18 07:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/TC01_ThemSPVaoGH/ButtonChon/a_1' is clicked on
+
+2018-03-18 07:39:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TC01_ThemSPVaoGH/VerrifySPTrongGH/td_BIG STAR' are matched.
+
+2018-03-18 07:39:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TC01_ThemSPVaoGH/VerrifySPTrongGH/td_BIG STAR' are matched.
+
+2018-03-18 07:39:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC01_ThemSPVaoGioHang' successfully
+
+2018-03-18 07:39:45 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 19, (i++)]): Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on
+
+2018-03-18 07:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/TC02_TangSPTrongGH/ButtonTangSP/a_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03_ChonMotSPNhieuLan" classname="Test Cases/TC03_ChonMotSPNhieuLan" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:39:50 - [TEST_CASE][PASSED] - Test Cases/TC03_ChonMotSPNhieuLan: Test Cases/TC03_ChonMotSPNhieuLan
+
+2018-03-18 07:39:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:39:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 07:39:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:39:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:59 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:39:59 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i < 20, (i++)]): Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:39:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/Page_Thc n - Lotteria Vit Nam/a_Chn' is clicked on
+
+2018-03-18 07:40:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC03_ChonMotSPNhieuLan/ButtonThem/a_20' is clicked on
+
+2018-03-18 07:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/TC03_ChonMotSPNhieuLan/ButtonThem/a_20' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04_ThemSPKhacLoai" classname="Test Cases/TC04_ThemSPKhacLoai" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:40:06 - [TEST_CASE][PASSED] - Test Cases/TC04_ThemSPKhacLoai: Test Cases/TC04_ThemSPKhacLoai
+
+2018-03-18 07:40:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:40:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 07:40:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:40:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:40:32 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:40:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:40:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:40:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:40:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:40:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:40:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:40:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:40:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:40:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:40:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:40:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:40:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:40:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:40:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:40:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on
+
+2018-03-18 07:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05_XoaMotSoSPCoTrongGioHang" classname="Test Cases/TC05_XoaMotSoSPCoTrongGioHang" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:40:58 - [TEST_CASE][PASSED] - Test Cases/TC05_XoaMotSoSPCoTrongGioHang: Test Cases/TC05_XoaMotSoSPCoTrongGioHang
+
+2018-03-18 07:40:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC04_ThemSPKhacLoai' successfully
+
+2018-03-18 07:40:58 - [TEST_CASE][PASSED] - Test Cases/TC04_ThemSPKhacLoai: Test Cases/TC04_ThemSPKhacLoai
+
+2018-03-18 07:40:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:40:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 07:41:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:41:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:41:08 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:41:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:41:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:41:09 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:41:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:41:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:41:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:41:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:41:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:41:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:41:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:41:17 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:41:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on
+
+2018-03-18 07:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on
+
+2018-03-18 07:41:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC04_ThemSPKhacLoai' successfully
+
+2018-03-18 07:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC05_XoaSPTuGioHang/DeleteSanPham/a_Delete' is clicked on
+
+2018-03-18 07:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/TC05_XoaSPTuGioHang/DeleteSanPham/a_Delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06_ClickVaoMotSPTrongGH" classname="Test Cases/TC06_ClickVaoMotSPTrongGH" status="PASSED">
+         <system-out><![CDATA[2018-03-18 07:41:20 - [TEST_CASE][PASSED] - Test Cases/TC06_ClickVaoMotSPTrongGH: Test Cases/TC06_ClickVaoMotSPTrongGH
+
+2018-03-18 07:41:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC04_ThemSPKhacLoai' successfully
+
+2018-03-18 07:41:20 - [TEST_CASE][PASSED] - Test Cases/TC04_ThemSPKhacLoai: Test Cases/TC04_ThemSPKhacLoai
+
+2018-03-18 07:41:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 07:41:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 07:41:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 07:41:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:41:29 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 07:41:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/ChonGH/img' is clicked on
+
+2018-03-18 07:41:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/a_Chn' is clicked on
+
+2018-03-18 07:41:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/BigStar/img' is clicked on
+
+2018-03-18 07:41:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/a_Chn' is clicked on
+
+2018-03-18 07:41:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTayChip/img' is clicked on
+
+2018-03-18 07:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/a_Chn' is clicked on
+
+2018-03-18 07:41:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/GaLac/img' is clicked on
+
+2018-03-18 07:41:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_Chn' is clicked on
+
+2018-03-18 07:41:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-03-18 07:41:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-03-18 07:41:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on
+
+2018-03-18 07:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC04_ThemSPKhacLoai/KhoaTay/a_4' is clicked on
+
+2018-03-18 07:41:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC04_ThemSPKhacLoai' successfully
+
+2018-03-18 07:41:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TC06_ClickSPTrongGioHang/ImageaCheck/img' is clicked on
+
+2018-03-18 07:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/TC06_ClickSPTrongGioHang/ImageaCheck/img' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-18 07:38:34 - [TEST_SUITE][PASSED] - BaoCaotestCaseThemSPVaoGioHang: Test Cases/TC06_ClickVaoMotSPTrongGH]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

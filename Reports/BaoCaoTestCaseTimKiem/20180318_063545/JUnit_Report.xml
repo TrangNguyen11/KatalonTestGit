@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="BaoCaoTestCaseTimKiem" time="63" tests="5" failures="0" errors="0">
+   <testsuite name="BaoCaoTestCaseTimKiem" tests="5" failures="0" errors="0" time="63" timestamp="2018-03-18 06:35:47" hostname="TrangCherry - DESKTOP-U0A6RSQ" id="Test Suites/BaoCaoTestCaseTimKiem">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TrangCherry\\Katalon Studio\\project\\Reports\\BaoCaoTestCaseTimKiem\\20180318_063545"/>
+         <property name="logFiles" value="C:\\Users\\TrangCherry\\Katalon Studio\\project\\Reports\\BaoCaoTestCaseTimKiem\\20180318_063545\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TrangCherry - DESKTOP-U0A6RSQ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.43.245"/>
+         <property name="sessionId" value="0fe4f96f-7716-4432-b444-58455af9729a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TimKiem/TC01_TimKiemKhongRaKQ" classname="Test Cases/TimKiem/TC01_TimKiemKhongRaKQ" status="PASSED">
+         <system-out><![CDATA[2018-03-18 06:35:48 - [TEST_CASE][PASSED] - Test Cases/TimKiem/TC01_TimKiemKhongRaKQ: Test Cases/TimKiem/TC01_TimKiemKhongRaKQ
+
+2018-03-18 06:35:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 06:35:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 06:35:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:35:59 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:35:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:35:59 - [TEST_STEP][PASSED] - setText: Text '123456789' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:35:59 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:35:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-18 06:36:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TimKiem/TC02_TimKiemCoDuLieuTrongDB" classname="Test Cases/TimKiem/TC02_TimKiemCoDuLieuTrongDB" status="PASSED">
+         <system-out><![CDATA[2018-03-18 06:36:02 - [TEST_CASE][PASSED] - Test Cases/TimKiem/TC02_TimKiemCoDuLieuTrongDB: Test Cases/TimKiem/TC02_TimKiemCoDuLieuTrongDB
+
+2018-03-18 06:36:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 06:36:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 06:36:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:12 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/a_pop-search' is clicked on
+
+2018-03-18 06:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/a_pop-search' is clicked on
+
+2018-03-18 06:36:12 - [TEST_STEP][PASSED] - setText: Text 'burger gà' is set on object 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/input_str'
+
+2018-03-18 06:36:12 - [MESSAGE][PASSED] - Text 'burger gà' is set on object 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/input_str'
+
+2018-03-18 06:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/a_BURGER G CAY' are matched.
+
+2018-03-18 06:36:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TimKiem/TC02_TimKiemRaKQ/TimKiemCoKetQua/a_BURGER G CAY' are matched.
+
+2018-03-18 06:36:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-18 06:36:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TimKiem/TC03_KhongNhapGiaTriTimKiem" classname="Test Cases/TimKiem/TC03_KhongNhapGiaTriTimKiem" status="PASSED">
+         <system-out><![CDATA[2018-03-18 06:36:15 - [TEST_CASE][PASSED] - Test Cases/TimKiem/TC03_KhongNhapGiaTriTimKiem: Test Cases/TimKiem/TC03_KhongNhapGiaTriTimKiem
+
+2018-03-18 06:36:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 06:36:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 06:36:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:24 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC03_KhongNhapGiaTri/TKKhongCoGiaTri/i' is clicked on
+
+2018-03-18 06:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC03_KhongNhapGiaTri/TKKhongCoGiaTri/i' is clicked on
+
+2018-03-18 06:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC03_KhongNhapGiaTri/TKKhongCoGiaTri/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC03_KhongNhapGiaTri/TKKhongCoGiaTri/input_icon i-submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TimKiem/TC04_NhapVuaChuVuaSo" classname="Test Cases/TimKiem/TC04_NhapVuaChuVuaSo" status="PASSED">
+         <system-out><![CDATA[2018-03-18 06:36:28 - [TEST_CASE][PASSED] - Test Cases/TimKiem/TC04_NhapVuaChuVuaSo: Test Cases/TimKiem/TC04_NhapVuaChuVuaSo
+
+2018-03-18 06:36:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 06:36:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-18 06:36:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 06:36:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:37 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:36:37 - [TEST_STEP][PASSED] - setText: Text '123 burger gà' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:36:38 - [MESSAGE][PASSED] - Text '123 burger gà' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:36:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-18 06:36:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TimKiem/TC05_NhapGiaTriDacBiet" classname="Test Cases/TimKiem/TC05_NhapGiaTriDacBiet" status="PASSED">
+         <system-out><![CDATA[2018-03-18 06:36:41 - [TEST_CASE][PASSED] - Test Cases/TimKiem/TC05_NhapGiaTriDacBiet: Test Cases/TimKiem/TC05_NhapGiaTriDacBiet
+
+2018-03-18 06:36:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-18 06:36:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-18 06:36:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:48 - [MESSAGE][PASSED] - Navigate to 'http://www.lotteria.vn/vn/thuc-don/1/burger/' successfully
+
+2018-03-18 06:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/i' is clicked on
+
+2018-03-18 06:36:49 - [TEST_STEP][PASSED] - setText: Text '!@#@' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:36:49 - [MESSAGE][PASSED] - Text '!@#@' is set on object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_str'
+
+2018-03-18 06:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/input_icon i-submit' is clicked on
+
+2018-03-18 06:36:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TimKiem/TC01_TimKiemKhongRaKQ/TKKhongRaKQ/div_KHNG TN TI' are matched.
+
+2018-03-18 06:36:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-18 06:36:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-18 06:35:47 - [TEST_SUITE][PASSED] - BaoCaoTestCaseTimKiem: Test Cases/TimKiem/TC05_NhapGiaTriDacBiet]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

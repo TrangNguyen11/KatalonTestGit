@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>2c6ec33f-3f71-471d-a31c-60e0fc47a841</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>http://www.lotteria.vn/resize.php?w=234&amp;h=265&amp;src=data/201423/bigstar_6281.png&amp;zc=1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>pro01</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;middle&quot;)/div[@class=&quot;wrapper page cart-page&quot;]/div[@class=&quot;desk-cart&quot;]/table[@class=&quot;tbl-cart&quot;]/tbody[1]/tr[2]/td[@class=&quot;nopadd&quot;]/img[1]</value>
+   </webElementProperties>
+</WebElementEntity>
